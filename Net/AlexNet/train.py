@@ -14,9 +14,7 @@ from model import AlexNet
 
 def main():
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-     # device = torch.device("cuda:0")
-     # device = torch.device("cuda:0")
-
+    
     print("using {} device.".format(device))
 
     data_transform = {
