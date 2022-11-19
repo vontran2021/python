@@ -7,9 +7,9 @@ import torch.nn as nn
 import torch.optim as optim
 from torchvision import transforms, datasets
 from tqdm import tqdm
-# from model import DRSNet
+
 from model2 import DRSNet
-# from test import DRSNet
+
 
 
 def main():
