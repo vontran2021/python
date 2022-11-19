@@ -67,7 +67,7 @@ def main():
 
     # load pretrain weights
 
-#     model_weight_path = "./wight/DRSNet_1.pth"
+#     model_weight_path = "./weight/DRSNet_1.pth"
 #     assert os.path.exists(model_weight_path), "file {} dose not exist.".format(model_weight_path)
 #     pre_weights = torch.load(model_weight_path, map_location='cpu')
 
@@ -98,7 +98,7 @@ def main():
     # scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=4, gamma=0.1, last_epoch=-1)
 
     best_acc = 0.0
-    save_path = './wight/DRSNet_2.pth'
+    save_path = './weight/DRSNet_2.pth'
     train_steps = len(train_loader)
     t1 = time.time()
     for epoch in range(epochs):
